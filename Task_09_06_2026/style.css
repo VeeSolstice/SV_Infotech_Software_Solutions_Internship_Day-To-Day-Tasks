@@ -1,0 +1,34 @@
+/* 1. Styling the whole page background and spacing */
+body {
+    background-color: #ecacca;
+    margin: 50px; /* Pushes everything 50 pixels away from the edges of the screen */
+}
+
+/* 2. Styling standard paragraphs */
+p {
+    color: #333333; /* Dark grey text */
+    font-size: 18px;
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.6; /* Adds breathing room between lines of text */
+}
+
+/* 3. Using a "Class Selector" (starts with a dot). 
+   This targets the <div> holding our button to center-align it. */
+.button-container {
+    text-align: center; 
+    margin-top: 40px; /* Pushes the button away from the paragraph above it */
+}
+
+/* 4. Styling the button to make it look clickable and beautiful */
+.download-btn {
+    background-color: #ff6b81; 
+    color: white;
+    padding: 15px 30px; 
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold; 
+    
+    /* Borders and Corners */
+    border: 2px solid #e0566b; /* Adds a solid border around the button */
+    border-radius: 25px; /*rounds the sharp corners of the button! */
+}
