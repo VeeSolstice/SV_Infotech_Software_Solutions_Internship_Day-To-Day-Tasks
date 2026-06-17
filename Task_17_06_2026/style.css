@@ -1,0 +1,64 @@
+/* 1. Page setup */
+body {
+    background-color: #eef2f3; 
+    
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+}
+
+
+/* 2. THE BOX MODEL (The Profile Card) */
+
+.profile-card {
+    background-color: white;
+    
+    width: 400px;           
+    padding: 40px;        
+    border: 2px solid #ccc; 
+    margin: 50px auto;      
+    
+    border-radius: 12px;    
+    text-align: center;     
+}
+
+
+   /* 3. TYPOGRAPHY (Styling the Text) */
+
+.profile-card h1 {
+    font-family: 'Georgia', serif;
+    font-size: 32px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    color: #e74c3c; 
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase; 
+    margin-bottom: 25px; 
+}
+.description {
+    font-size: 16px;
+    line-height: 1.6; 
+    color: #555555;
+    margin-bottom: 30px; 
+}
+
+
+/* 4. BOX MODEL ON A BUTTON */
+
+.connect-btn {
+    background-color: #2c3e50; 
+    color: white;              
+    
+   
+    padding: 12px 30px; 
+    border: none;      
+    
+    border-radius: 25px; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
