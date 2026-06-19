@@ -1,0 +1,22 @@
+/* 1. Style the individual boxes so we can see them */
+.box {
+    background-color: lightblue;
+    padding: 30px;
+    border: 2px solid blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* 2. Desktop View: Turn the container into a Grid with 3 columns */
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto; /* Creates 3 equal columns */
+    gap: 15px; /* Puts 15px of empty space between the boxes */
+}
+
+/* 3. Mobile View (Media Query): If the screen is smaller than 600px */
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: auto; /* Changes it to just 1 column! */
+    }
+}
