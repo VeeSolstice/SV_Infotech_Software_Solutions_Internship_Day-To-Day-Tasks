@@ -25,7 +25,10 @@ body {
 .table{
     width:500px;      
     height: 400px;     
-  
+    
+    font-size: large;
+    font-weight: bolder;
+    
   
     margin-top: 100px; 
     margin-left: auto; 
