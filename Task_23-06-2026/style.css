@@ -1,0 +1,85 @@
+.Navbar{
+    width: 2000px;
+    height: 100px;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.Hero{
+    width: 2000px;
+    height: 800px;
+    margin: 40px;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+
+.Section1{
+    width: 1900px;
+    height: 120px;
+    margin: 40px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.Section2{
+    width: 1900px;
+    height: 120px;
+    margin: 40px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.Section3{
+    width: 1900px;
+    height: 120px;
+    margin: 40px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.Section4{
+    width: 1900px;
+    height: 120px;
+    margin: 40px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.Footer{
+    width: 2000px;
+    height: 800px;
+    margin: 40px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.Logo{
+    width: 1000px;
+    height: 80px;
+    margin: 40px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.nav-links{
+    width: 1000px;
+    height: 80px;
+    margin: 40px;
+    border: 2px solid black;
+    padding: 10px;
+
+}
+
+.nav-buttons{
+    width: 1000px;
+    height: 80px;
+    margin: 40px;
+    border: 2px solid black;
+    padding: 10px;
+
+}
