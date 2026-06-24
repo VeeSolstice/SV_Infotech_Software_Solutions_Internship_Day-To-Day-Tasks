@@ -12,12 +12,13 @@
 
 .Hero{
     width: 1650px;
-    height: 3390px;
+    height: 2960px;
     margin: 5px;
     border: 2px solid black;
     padding: 10px;
     
 }
+
 
 .Section1{
     width: 1615px;
@@ -25,6 +26,14 @@
     margin: 5px;
     border: 2px solid black;
     padding: 10px;
+    overflow: hidden;
+}
+
+.Section1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .Section2{
@@ -33,6 +42,14 @@
     margin: 5px;
     border: 2px solid black;
     padding: 10px;
+    overflow: hidden;
+}
+
+.Section2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .Section3{
@@ -41,6 +58,7 @@
     margin: 5px;
     border: 2px solid black;
     padding: 10px;
+    background-color: rgb(255, 241, 246);
 }
 
 .Section4{
@@ -49,15 +67,16 @@
     margin: 5px;
     border: 2px solid black;
     padding: 10px;
+    overflow: hidden;
 }
 
-.Section5{
-    width: 1615px;
-    height: 400px;
-    margin: 5px;
-    border: 2px solid black;
-    padding: 10px;
+.Section4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
+
 
 .Footer{
     width: 1650px;
@@ -65,6 +84,7 @@
     margin: 5px;
     border: 2px solid black;
     padding: 10px;
+    background-color: rgb(255, 241, 246);
 }
 
 .Logo{
