@@ -1,12 +1,13 @@
 .Navbar{
     width: 2000px;
-    height: 100px;
+    height: 175px;
     margin: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 2px solid black;
     padding: 10px;
+    background-color: white;
 }
 
 .Hero{
@@ -60,26 +61,58 @@
 
 .Logo{
     width: 1000px;
-    height: 80px;
-    margin: 40px;
+    height: 110px;
+    margin: 20px;
+    /* margin-top: -10px; */
     border: 2px solid black;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
 
 .nav-links{
-    width: 1000px;
-    height: 80px;
-    margin: 40px;
+    width: 800px;
+    height: 110px;
+    margin: 20px;
     border: 2px solid black;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
 
 }
 
 .nav-buttons{
     width: 1000px;
-    height: 80px;
-    margin: 40px;
+    height: 110px;
+    margin: 20px;
     border: 2px solid black;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
 
+}
+
+.Button1{
+    height: 100px;
+    padding: 10px;
+    background-color: white;
+}
+
+.Button2{
+    height: 100px;
+    padding: 10px;
+}
+
+ul.nav-links{
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    display: flex;
+    gap: 15px;
 }
