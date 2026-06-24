@@ -1,7 +1,7 @@
 .Navbar{
-    width: 2000px;
-    height: 175px;
-    margin: 40px;
+    width: 1650px;
+    height: 100px;
+    margin: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,58 +11,66 @@
 }
 
 .Hero{
-    width: 2000px;
-    height: 800px;
-    margin: 40px;
+    width: 1650px;
+    height: 3390px;
+    margin: 5px;
     border: 2px solid black;
     padding: 10px;
     
 }
 
 .Section1{
-    width: 1900px;
-    height: 120px;
-    margin: 40px;
+    width: 1615px;
+    height: 740px;
+    margin: 5px;
     border: 2px solid black;
     padding: 10px;
 }
 
 .Section2{
-    width: 1900px;
-    height: 120px;
-    margin: 40px;
+    width: 1615px;
+    height: 1000px;
+    margin: 5px;
     border: 2px solid black;
     padding: 10px;
 }
 
 .Section3{
-    width: 1900px;
-    height: 120px;
-    margin: 40px;
+    width: 1615px;
+    height: 500px;
+    margin: 5px;
     border: 2px solid black;
     padding: 10px;
 }
 
 .Section4{
-    width: 1900px;
-    height: 120px;
-    margin: 40px;
+    width: 1615px;
+    height: 600px;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.Section5{
+    width: 1615px;
+    height: 400px;
+    margin: 5px;
     border: 2px solid black;
     padding: 10px;
 }
 
 .Footer{
-    width: 2000px;
-    height: 800px;
-    margin: 40px;
+    width: 1650px;
+    height: 500px;
+    margin: 5px;
     border: 2px solid black;
     padding: 10px;
 }
 
 .Logo{
-    width: 1000px;
-    height: 110px;
-    margin: 20px;
+    width: 400px;
+    height: 80px;
+    margin: 5px;
     /* margin-top: -10px; */
     border: 2px solid black;
     padding: 10px;
@@ -73,9 +81,9 @@
 }
 
 .nav-links{
-    width: 800px;
-    height: 110px;
-    margin: 20px;
+    width: 400px;
+    height: 80px;
+    margin: 5px;
     border: 2px solid black;
     padding: 10px;
     display: flex;
@@ -86,9 +94,9 @@
 }
 
 .nav-buttons{
-    width: 1000px;
-    height: 110px;
-    margin: 20px;
+    width: 400px;
+    height: 80px;
+    margin: 5px;
     border: 2px solid black;
     padding: 10px;
     display: flex;
@@ -99,14 +107,24 @@
 }
 
 .Button1{
-    height: 100px;
+    height: 42px;
+    width: 120px;
     padding: 10px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .Button2{
-    height: 100px;
+    height: 42px;
+    width: 120px;
     padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul.nav-links{
